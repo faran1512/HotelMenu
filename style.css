@@ -1,0 +1,76 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(220, 230, 240);
+}
+
+.heading {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+h1 {
+    margin-bottom: 0.7rem;
+}
+
+.line {
+    margin: 0.5rem auto;
+    width: 5%;
+    border-top: 3px solid brown;
+}
+
+.btn-container {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.btn {
+    margin-left: 0.4rem;
+    margin-right: 0.4rem; 
+    border: 1px solid brown;
+    color: brown;
+    cursor: pointer;
+    background-color: inherit;
+    padding: 0.2rem 0.5rem;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    color: white;
+    background-color: brown; 
+}
+
+.food-cards-container {
+    margin: 3rem auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+}
+
+.food-item-container {
+    display: grid;
+    grid-template-columns: 0.4fr 0.6fr;
+    grid-gap: 1.2rem;
+    max-width: 40vw;
+}
+
+h3 {
+    margin-top: 0;
+    border-bottom: 1px solid brown;
+    padding-bottom: 0.5rem;
+}
+
+.image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border: 4px solid brown;
+    border-radius: 10px;
+}
+
+.food-price {
+    margin-left: 2rem;
+    color: brown;
+}
